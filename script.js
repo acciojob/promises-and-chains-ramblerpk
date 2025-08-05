@@ -6,7 +6,7 @@ document.getElementById('btn').addEventListener('click', function(event) {
 
     // Validation
     if (!age || !name) {
-        alert("Please enter valid details.");
+        alert(`Please enter valid details`);
         return; // Exit the function if validation fails
     }
 
